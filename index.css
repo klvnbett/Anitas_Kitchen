@@ -96,9 +96,30 @@
 
 .fstfd {
     flex-direction: column;
+    border: 12px solid white;
+    box-shadow: 0 0 4px rgb(150, 148, 148);
+    margin-right: 20px;
+    ;
 }
 
 .fds {
     width: 70%;
-    margin: 0 auto;
+    margin: 30px auto 0;
+}
+
+.descff {
+    padding-right: 20px;
+}
+
+.descff p {
+    font-size: 14px;
+}
+
+.view {
+    border: 1px solid #f15A29;
+    padding: 8px 10px;
+}
+
+.drnk {
+    flex-direction: row;
 }
