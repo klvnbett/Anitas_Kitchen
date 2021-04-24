@@ -1,26 +1,42 @@
-
-*{
+* {
     padding: 0;
     margin: 0;
 }
-.header{
-    position :relative;
-    top:0;
+
+.header {
+    position: relative;
+    top: 0;
     left: 0;
-display: flex;
-height: 70vh;
-align-items: center;
-justify-content: center;
-background-image: url("./backgrounds/landing.jpg");
-background-position: center 100%;
-background-size: cover;
+    height: 70vh;
+    background-image: url("./backgrounds/landing.jpg");
+    background-position: center 100%;
+    background-size: cover;
 }
+
+.nav {
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+.nav button {
+    background-color: transparent;
+    border: none;
+}
+
+.nav button i {
+    color: white;
+    font-size: 45px;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #logo figcaption {
     text-align: center;
     font-size: 30px;
     color: white;
-   
-}
-.Button{
-   
 }
