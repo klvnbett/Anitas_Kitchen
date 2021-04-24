@@ -167,3 +167,15 @@
 .lorfd {
     padding: 12px 21px;
 }
+
+.lorfd figcaption {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.innermen .fa {
+    position: relative;
+    top: 125px;
+    color: #f15A29;
+    font-size: 30px;
+}
