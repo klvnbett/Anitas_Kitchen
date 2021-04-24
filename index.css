@@ -103,7 +103,7 @@
 }
 
 .fds {
-    width: 70%;
+    width: 80%;
     margin: 30px auto 0;
 }
 
@@ -118,8 +118,52 @@
 .view {
     border: 1px solid #f15A29;
     padding: 8px 10px;
+    text-decoration: none;
+    color: #f15A29;
 }
 
 .drnk {
     flex-direction: row;
+}
+
+.lowernt {
+    background-image: url("./backgrounds/foodsBg.jpg");
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    height: 75vh;
+}
+
+.lrfoo {
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    flex-direction: column;
+}
+
+.frloo {
+    list-style-type: none;
+}
+
+.frloo li {
+    width: 25%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgba(136, 133, 133, 0.555);
+    border: 1px solid gray
+}
+
+.frloo li:hover {
+    color: #f15A29;
+    border: none;
+    background: transparent;
+}
+
+.innermen {
+    padding: 30px;
+}
+
+.lorfd {
+    padding: 12px 21px;
 }
