@@ -29,8 +29,11 @@
     font-size: 45px;
 }
 
-#logo {
+.fx {
     display: flex;
+}
+
+#logo {
     align-items: center;
     justify-content: center;
 }
@@ -39,4 +42,54 @@
     text-align: center;
     font-size: 30px;
     color: white;
+}
+
+.mmbar {
+    height: 30vh;
+}
+
+.wd {
+    width: 25%;
+}
+
+.bkg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.bkg p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.time {
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.time p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cl {
+    background-color: #f15A29;
+    color: white;
+}
+
+.breakfast {
+    background-image: url("./foodtop/breakfast.jpg");
+}
+
+.lunch {
+    background-image: url("./foodtop/lunch.jpg");
+}
+
+.dinner {
+    background-image: url("./foodtop/dinner.jpg");
 }
