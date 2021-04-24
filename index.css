@@ -93,3 +93,12 @@
 .dinner {
     background-image: url("./foodtop/dinner.jpg");
 }
+
+.fstfd {
+    flex-direction: column;
+}
+
+.fds {
+    width: 70%;
+    margin: 0 auto;
+}
