@@ -15,8 +15,10 @@ background-image: url("./backgrounds/landing.jpg");
 background-position: center 100%;
 background-size: cover;
 }
-.logo{
-    
+#logo figcaption {
+    text-align: center;
+    font-size: 30px;
+    color: white;
    
 }
 .Button{
