@@ -207,3 +207,12 @@
     .fa {
         color: #f15A29;
     }
+    
+    .footerhead {
+        background-image: url("./backgrounds/subscribe.jpg");
+        padding: 50px 25px;
+        height: 25vh;
+        margin-top: 45px;
+        text-align: center;
+        color: white;
+    }
