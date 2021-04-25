@@ -216,3 +216,10 @@
         text-align: center;
         color: white;
     }
+    
+    .footercocl {
+        background-color: #f15A29;
+        height: 25vh;
+        padding: 50px 25px;
+        color: white;
+    }
