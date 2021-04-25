@@ -222,6 +222,9 @@
         height: 25vh;
         padding: 50px 25px;
         color: white;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
     }
     
     .subscribe {
@@ -239,4 +242,8 @@
         height: 5vh;
         font-size: 150%;
         margin-top: 45px;
+    }
+    
+    .footerimage {
+        flex-direction: row;
     }
