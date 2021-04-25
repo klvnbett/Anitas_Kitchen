@@ -198,6 +198,12 @@ body {
 .customers {
     border-right: groove;
     justify-content: flex-end;
+    text-align: center;
+}
+
+.customimg {
+    padding: 20px 0 0 45px;
+    margin-top: 39%;
 }
 
 .about {
