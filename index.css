@@ -1,183 +1,203 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
-.header {
-    position: relative;
-    top: 0;
-    left: 0;
-    height: 70vh;
-    background-image: url("./backgrounds/landing.jpg");
-    background-position: center 100%;
-    background-size: cover;
-}
-
-.nav {
-    position: relative;
-    top: 50px;
-    left: 100px;
-}
-
-.nav button {
-    background-color: transparent;
-    border: none;
-}
-
-.nav button i {
-    color: white;
-    font-size: 45px;
-}
-
-.fx {
-    display: flex;
-}
-
-#logo {
-    align-items: center;
-    justify-content: center;
-}
-
-#logo figcaption {
-    text-align: center;
-    font-size: 30px;
-    color: white;
-}
-
-.mmbar {
-    height: 30vh;
-}
-
-.wd {
-    width: 25%;
-}
-
-.bkg {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: white;
-    justify-content: center;
-    align-items: center;
-}
-
-.bkg p {
-    font-size: 20px;
-    font-weight: 700;
-}
-
-.time {
-    height: 50%;
-    justify-content: center;
-    align-items: center;
-}
-
-.time p {
-    font-size: 20px;
-    font-weight: 700;
-}
-
-.cl {
-    background-color: #f15A29;
-    color: white;
-}
-
-.breakfast {
-    background-image: url("./foodtop/breakfast.jpg");
-}
-
-.lunch {
-    background-image: url("./foodtop/lunch.jpg");
-}
-
-.dinner {
-    background-image: url("./foodtop/dinner.jpg");
-}
-
-.fstfd {
-    flex-direction: column;
-    border: 12px solid white;
-    box-shadow: 0 0 4px rgb(150, 148, 148);
-    margin-right: 20px;
-    ;
-}
-
-.fds {
-    width: 80%;
-    margin: 30px auto 0;
-}
-
-.descff {
-    padding-right: 20px;
-}
-
-.descff p {
-    font-size: 14px;
-}
-
-.view {
-    border: 1px solid #f15A29;
-    padding: 8px 10px;
-    text-decoration: none;
-    color: #f15A29;
-}
-
-.drnk {
-    flex-direction: row;
-}
-
-.lowernt {
-    background-image: url("./backgrounds/foodsBg.jpg");
-    background-repeat: no-repeat;
-    justify-content: center;
-    align-items: center;
-    background-position: center;
-    height: 75vh;
-    margin-top: 45px;
-}
-
-.lrfoo {
-    justify-content: center;
-    align-content: center;
-    background-color: white;
-    flex-direction: column;
-}
-
-.frloo {
-    list-style-type: none;
-}
-
-.frloo li {
-    width: 25%;
-    text-align: center;
-    padding: 10px 0;
-    background-color: rgba(136, 133, 133, 0.555);
-    border: 1px solid gray
-}
-
-.frloo li:hover {
-    color: #f15A29;
-    border: none;
-    background: transparent;
-}
-
-.innermen {
-    padding: 30px;
-}
-
-.lorfd {
-    padding: 12px 21px;
-    color: #f15A29;
-}
-
-.lorfd figcaption {
-    text-align: center;
-    padding-top: 5px;
-}
-
-.innermen .fa {
-    position: relative;
-    top: 125px;
-    color: #f15A29;
-    font-size: 30px;
-}
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    body {
+        margin: 75px;
+    }
+    
+    .header {
+        position: relative;
+        top: 0;
+        left: 0;
+        height: 70vh;
+        background-image: url("./backgrounds/landing.jpg");
+        background-position: center 100%;
+        background-size: cover;
+    }
+    
+    .nav {
+        position: relative;
+        top: 50px;
+        left: 100px;
+    }
+    
+    .nav button {
+        background-color: transparent;
+        border: none;
+    }
+    
+    .nav button i {
+        color: white;
+        font-size: 45px;
+    }
+    
+    .fx {
+        display: flex;
+    }
+    
+    #logo {
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #logo figcaption {
+        text-align: center;
+        font-size: 30px;
+        color: white;
+    }
+    
+    .mmbar {
+        height: 30vh;
+    }
+    
+    .wd {
+        width: 25%;
+    }
+    
+    .bkg {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .bkg p {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    .time {
+        height: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .time p {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    .cl {
+        background-color: #f15A29;
+        color: white;
+    }
+    
+    .breakfast {
+        background-image: url("./foodtop/breakfast.jpg");
+    }
+    
+    .lunch {
+        background-image: url("./foodtop/lunch.jpg");
+    }
+    
+    .dinner {
+        background-image: url("./foodtop/dinner.jpg");
+    }
+    
+    .fstfd {
+        flex-direction: column;
+        border: 12px solid white;
+        box-shadow: 0 0 4px rgb(150, 148, 148);
+        margin-right: 20px;
+        ;
+    }
+    
+    .fds {
+        width: 80%;
+        margin: 30px auto 0;
+    }
+    
+    .descff {
+        padding-right: 20px;
+    }
+    
+    .descff p {
+        font-size: 14px;
+    }
+    
+    .view {
+        border: 1px solid #f15A29;
+        padding: 8px 10px;
+        text-decoration: none;
+        color: #f15A29;
+    }
+    
+    .drnk {
+        flex-direction: row;
+    }
+    
+    .lowernt {
+        background-image: url("./backgrounds/foodsBg.jpg");
+        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;
+        background-position: center;
+        height: 75vh;
+        margin-top: 45px;
+    }
+    
+    .lrfoo {
+        justify-content: center;
+        align-content: center;
+        background-color: white;
+        flex-direction: column;
+    }
+    
+    .frloo {
+        list-style-type: none;
+    }
+    
+    .frloo li {
+        width: 25%;
+        text-align: center;
+        padding: 10px 0;
+        background-color: rgba(136, 133, 133, 0.555);
+        border: 1px solid gray
+    }
+    
+    .frloo li:hover {
+        color: #f15A29;
+        border: none;
+        background: transparent;
+    }
+    
+    .innermen {
+        padding: 30px;
+    }
+    
+    .lorfd {
+        padding: 12px 21px;
+        color: #f15A29;
+    }
+    
+    .lorfd figcaption {
+        text-align: center;
+        padding-top: 5px;
+    }
+    
+    .innermen .fa {
+        position: relative;
+        top: 125px;
+        color: #f15A29;
+        font-size: 30px;
+    }
+    
+    .Customer_menu {
+        margin-top: 50px;
+        padding: 30px 50px;
+        border: 1px groove;
+        border-color: gray;
+    }
+    
+    .customers {
+        border-right: groove;
+        padding: 0 25px;
+    }
+    
+    .fa {
+        color: #f15A29;
+    }
