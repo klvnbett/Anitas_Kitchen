@@ -224,6 +224,19 @@
         color: white;
     }
     
+    .subscribe {
+        background-color: #dbd7d5;
+        width: 35%;
+        color: white;
+        height: 5vh;
+        font-size: 150%;
+    }
+    
     .button {
         background-color: #f15A29;
+        width: 25%;
+        color: white;
+        height: 5vh;
+        font-size: 150%;
+        margin-top: 45px;
     }
