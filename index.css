@@ -189,18 +189,18 @@
     .Customer_menu {
         margin-top: 50px;
         padding: 30px 50px;
-        border: 1px groove;
-        border-color: gray;
+        border: outset;
+        border-color: rgba(216, 212, 212, 0.5);
+        margin-left: 50PX;
+        margin-right: 50PX;
     }
     
     .customers {
         border-right: groove;
-        padding: 0 25px;
     }
     
     .about {
         border-right: none;
-        padding: 0 20px;
         align-content: center;
     }
     
