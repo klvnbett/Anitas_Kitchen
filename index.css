@@ -120,7 +120,9 @@ body {
 }
 
 .view {
+    margin-top: 300px;
     border: 1px solid #f15A29;
+    border: outset;
     padding: 8px 10px;
     text-decoration: none;
     color: #f15A29;
@@ -199,11 +201,6 @@ body {
     border-right: groove;
     justify-content: flex-end;
     text-align: center;
-}
-
-.customimg {
-    padding: 20px 0 0 45px;
-    margin-top: 39%;
 }
 
 .about {
