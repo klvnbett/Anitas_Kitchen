@@ -121,8 +121,7 @@ body {
 
 .view {
     margin-top: 300px;
-    border: 1px solid #f15A29;
-    border: outset;
+    border: outset #f15A29;
     padding: 8px 10px;
     text-decoration: none;
     color: #f15A29;
@@ -234,6 +233,11 @@ h4 {
     align-items: center;
     display: flex;
     flex-direction: column;
+}
+
+.Menufooter {
+    margin-top: 15px;
+    padding-bottom: 25px;
 }
 
 .subscribe {
