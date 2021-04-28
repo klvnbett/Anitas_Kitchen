@@ -257,8 +257,17 @@ h4 {
     margin-top: 45px;
 }
 
-
-}
 .footerimage {
     flex-direction: row;
+}
+
+.customerspic {
+    justify-content: center;
+}
+
+.customerspic .fa {
+    position: relative;
+    top: 10px;
+    color: #f15A29;
+    font-size: 20px;
 }
