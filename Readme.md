@@ -1,18 +1,16 @@
 # Anitas Kitchen menu
-#### this is the development of the menu of a restaturant called anitas kitchen
-#### By bett kelvin
-## Description
-This project describe the members and the songs that wailers and bob marley have been performong it further entails the tours and live performance they have done
+
+This is a project that basically uses basic html and css to develop the front page of a very intresting and delicious food producing restaurant which is famaously known as Anitas kitchen.
+the project was built to market and promote the nice food and the hardwork of the company.
 
 ## Live Demo
-
+The demo of the site can be accessed through:
 [Live Demo Link]( "https://github.com/klvnbett/Anitas_Kitchen")
 
 ## Setup/Installation Requirements
-google chrome as the default browser
-internet connection
+By default the setup instalation requires only a browser and internet connection further more google chrome as the default browser.
 ## Known Bugs
-the project is still under development and updates will be rolled out on occassional basis where you will be notified to be performong updates.
+Project is will keep rolling out updates on occassional basis where you will be notified to be performong updates. This will ensure smooth and better operations
 ## Technologies Used
 Html and css was used to design and develop the web page.
 
